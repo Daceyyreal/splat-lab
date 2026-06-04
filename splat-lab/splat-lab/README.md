@@ -9,7 +9,7 @@
 splat-lab loads a trained 3DGS `.ply` in your browser, lets you prune Gaussians,
 drop spherical-harmonic bands, and quantize — all live — and shows the resulting
 file size and reduction the moment you move a control. It's the interactive
-companion to [splat-slim](https://github.com/your-username/splat-slim): the same
+companion to [splat-slim](https://github.com/Daceyyreal/splat-slim): the same
 compression math, made visual.
 
 > **Live demo:** https://Daceyyreal.github.io/splat-lab/
