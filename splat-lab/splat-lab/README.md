@@ -6,6 +6,8 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 ![License](https://img.shields.io/badge/license-MIT-green)
 
+![splat-lab demo — dragging the compression sliders and watching the file size drop live](../../assets/demo.gif)
+
 splat-lab loads a trained 3DGS `.ply` in your browser, lets you prune Gaussians,
 drop spherical-harmonic bands, and quantize — all live — and shows the resulting
 file size and reduction the moment you move a control. It's the interactive
