@@ -23,15 +23,12 @@ jobs:
         with:
           node-version: "22"
       - run: npm install
-        working-directory: splat-lab/splat-lab
       - run: npm test
-        working-directory: splat-lab/splat-lab
       - run: npm run build
-        working-directory: splat-lab/splat-lab
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: splat-lab/splat-lab/dist
+          path: dist
 
   deploy:
     needs: build
