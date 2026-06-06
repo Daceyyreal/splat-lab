@@ -1,1 +1,0 @@
-place a 3DGS .ply here named sample.ply to use the 'load sample' button
