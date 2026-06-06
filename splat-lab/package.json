@@ -1,0 +1,22 @@
+{
+  "name": "splat-lab",
+  "version": "0.1.0",
+  "description": "Live, in-browser 3D Gaussian Splatting compression — see the size/quality tradeoff in real time.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit",
+    "test": "node --experimental-strip-types src/compression.test.ts && node --experimental-strip-types src/ply.roundtrip.test.ts"
+  },
+  "dependencies": {
+    "@mkkellogg/gaussian-splats-3d": "^0.4.7",
+    "three": "^0.184.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.16"
+  }
+}
