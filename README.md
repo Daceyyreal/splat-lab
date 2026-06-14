@@ -2,6 +2,7 @@
 
 **Live, in-browser 3D Gaussian Splatting compression — drag a slider, watch the size and quality change in real time.**
 
+[![Release](https://img.shields.io/github/v/release/Daceyyreal/splat-lab?sort=semver)](https://github.com/Daceyyreal/splat-lab/releases/latest)
 ![Vite](https://img.shields.io/badge/vite-ready-646cff)
 ![TypeScript](https://img.shields.io/badge/TypeScript-strict-3178c6)
 ![License](https://img.shields.io/badge/license-MIT-green)
